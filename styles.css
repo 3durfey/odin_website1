@@ -14,16 +14,18 @@ body {
 }
 .main1 {
     flex-grow: 1.1;
+    flex-shrink: 1;
     display: flex;
     background-color: #1F2937;
     justify-content: center;
     align-items: center;
+    padding: 100px;
 }
 
 .left1 {
     height: 250px;
     width: 500px;
-    margin-left: 100px;
+    margin-left: 15px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -49,22 +51,87 @@ body {
     font-size: 15px;
     font-weight:lighter;
 }
+.sign_up_btn {
+    padding: 8px 25px;
+    border-radius: 8px;
+    background: #3882F6;
+    border: 1px solid #3882F6;
+    color: white;
+}
+
 .main2 {
-    flex-grow: 1.4;
+    flex-grow: .2;
     display: flex;
     background-color: white;
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+.text {
+    text-align: center;
+    height: 150px;
+    width: 150px;
+}
+.top {
+    margin: 40px;
+}
+.bottom {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
 }
 .main3 {
     flex-grow: 1.2;
     display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.quote {
+    width: 800px;
+    font-size: 36px;
+    text-align: left;
+}
+.signature {
+    font-weight: bold;
+    padding-left: 600px;
 }
 .main4 {
     flex-grow: 1;
     display: flex;
     background-color: white;
-    justify-content: space-between;
+    justify-content: center;
+}
+.box {
+    height: 200px;
+    width: 1000px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    margin: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn {
+    padding: 8px 25px;
+    border-radius: 8px;
+    width: 150px;
+    color: white;
+    background-color: #3882F6;
+    border: 2px solid white;
+}
+.text1 {
+    font-weight: bold;
+    font-size: 20px;
 }
 .footer {
     background-color: #1F2937;
@@ -73,6 +140,7 @@ body {
     justify-content: center;
     color: white;
     flex-grow: .2;
+    min-height: 50px;
 }
 
 .logo {
